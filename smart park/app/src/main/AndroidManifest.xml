@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dimas.komentar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lodok"
+        android:label="@string/nama_aplikasi"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.dimas.komentar.ClassUtkLogIn"
+            android:label="@string/nama_aplikasi"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.dimas.komentar.ClassMaps"
+            android:label="@string/nama_aplikasi" >
+
+        </activity>
+        <activity
+            android:name="com.example.dimas.komentar.ClassDenahParkir"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+        <activity
+            android:name="com.example.dimas.komentar.ClassDenahParkir2"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+        <activity
+            android:name="com.example.dimas.komentar.ClassA1"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+
+        <activity
+            android:name="com.example.dimas.komentar.ClassA2"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+
+        <activity
+            android:name="com.example.dimas.komentar.ClassA3"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+
+        <activity
+            android:name="com.example.dimas.komentar.ClassA4"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+
+        <activity
+            android:name="com.example.dimas.komentar.ClassA5"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+
+        <activity
+            android:name="com.example.dimas.komentar.ClassA6"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+
+        <activity
+            android:name="com.example.dimas.komentar.ClassA7"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+
+        <activity
+            android:name="com.example.dimas.komentar.ClassA8"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+
+        <activity
+            android:name="com.example.dimas.komentar.ClassRegistrasi"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+        <activity
+            android:name="com.example.dimas.komentar.ClassTambahKomentar"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+        <activity
+            android:name="com.example.dimas.komentar.ClassBacaKomentar"
+            android:label="@string/nama_aplikasi"  >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/api" />
+    </application>
+
+</manifest>

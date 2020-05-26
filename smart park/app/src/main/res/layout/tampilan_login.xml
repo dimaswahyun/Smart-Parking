@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="220dp"
+            android:layout_height="150dp"
+            android:layout_above="@+id/textView1"
+            android:layout_alignStart="@+id/username"
+            android:layout_marginBottom="17dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/design" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView01"
+        android:layout_centerHorizontal="true"
+        android:hint="Masukkan username"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login"
+        android:hint="Masukkan password"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPassword">
+
+        <requestFocus />
+    </EditText>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="90dp"
+
+    android:paddingRight="90dp"
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/password"
+        android:background="#1398B7"
+        android:textColor="#fff"
+        android:layout_alignRight="@+id/password"
+
+        android:text="Login" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="90dp"
+        android:orientation="vertical"
+        android:paddingRight="90dp"
+        >
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/login"
+            android:layout_alignParentBottom="true"
+            android:background="#1398B7"
+            android:textColor="#fff"
+            android:layout_alignRight="@+id/login"
+            android:text="Registrasi" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

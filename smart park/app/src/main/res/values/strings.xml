@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Komentar</string>
+    <string name="nama_aplikasi">Tugas Akhir Dimas</string>
+    <string name="baca_komentar">Baca Komentar</string>
+    <string name="baca_komentar_judul">Baca Komentar Judul</string>
+    <string name="tombol_kirim">Kirim</string>
+    <string name="api">AIzaSyBnwhgPqoxYGVV_5iR7sQ_XFkGMKFgmWQk</string>
+
+</resources>
