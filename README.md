@@ -1,5 +1,6 @@
 # Smart-Parking
-This is my final projrct as a telecomunication engineering student.
+This is my final project as a telecomunication engineering student. 
+This application is useful for finding out the remaining parking slots in a place, and even being able to reserve parking slots from anywhere.
 
 with this project you abble to monitor and book the slot parking
 there are 4 side of coding:
