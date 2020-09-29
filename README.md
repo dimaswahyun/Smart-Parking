@@ -8,3 +8,6 @@ there are 4 side of coding:
 2. server side
 3 raspberrypi as local server/
 4. arduino (i use node mcu)
+
+
+Here is the demo video: https://www.youtube.com/watch?v=i53biRFiFbo
